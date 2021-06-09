@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="card todo-card mt-5">
+    <div class="card-header">
+      Qaydnoma
+
+      <h5>Qaydlar soni: <span id="todos-count">0</span></h5>
+    </div>
+    <div class="card-body">
+      <form id="todo-form" class="d-flex">
+        <input type="text" class="form-control me-3" id="todo-input" placeholder="Qiladigan ishni yozing" required>
+        <button type="submit" class="btn btn-primary">Qo'shish</button>
+      </form>
+
+      <ul class="list-group mt-2" id="todo-list-holder">
+      </ul>
+    </div>
+
+    <div class="card-footer">
+      <button class="btn btn-success">Saqlash</button>
+    </div>
+  </div>
+
+  <script src="./libs/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
